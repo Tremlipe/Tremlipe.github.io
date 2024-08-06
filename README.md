@@ -1,76 +1,29 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tremlipe Studios - Mixagem e Masterização</title>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; color: #333; background-color: #f4f4f4; }
-        header { background: #333; color: #fff; padding: 1rem; text-align: center; }
-        nav { margin: 0; padding: 0; list-style: none; }
-        nav a { color: #fff; text-decoration: none; padding: 0.5rem 1rem; }
-        section { padding: 2rem; max-width: 800px; margin: auto; background: #fff; box-shadow: 0 0 10px rgba(0,0,0,0.1); border-radius: 8px; }
-        .services { display: flex; flex-wrap: wrap; }
-        .service { flex: 1; margin: 0.5rem; padding: 1rem; background: #e0e0e0; border-radius: 8px; }
-        footer { background: #333; color: #fff; text-align: center; padding: 1rem; }
-        .contact-form { margin: 2rem 0; }
-        .contact-form input, .contact-form textarea { width: 100%; padding: 0.5rem; margin: 0.5rem 0; border: 1px solid #ddd; border-radius: 4px; }
-        .contact-form button { background: #333; color: #fff; border: none; padding: 0.5rem 1rem; border-radius: 4px; cursor: pointer; }
-        .service img { width: 100%; height: auto; border-radius: 8px; }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>Tremlipe Studios</h1>
-        <nav>
-            <a href="#services">Serviços</a>
-            <a href="#about">Sobre</a>
-            <a href="#contact">Contato</a>
-        </nav>
-    </header>
+# Tremlipe Studios
 
-    <section id="services">
-        <h2>Serviços de Mixagem e Masterização</h2>
-        <div class="services">
-            <div class="service">
-                <h3>Mixagem</h3>
-                <p>Pacote completo de mixagem para suas músicas, com ajustes detalhados e aprimoramento do som.</p>
-                <img src="caminho/para/imagem-mixagem.jpg" alt="Mixagem">
-                <p>Preço: R$150</p>
-            </div>
-            <div class="service">
-                <h3>Masterização</h3>
-                <p>Serviço de masterização para garantir que suas faixas soem perfeitas em qualquer sistema de reprodução.</p>
-                <img src="caminho/para/imagem-masterizacao.jpg" alt="Masterização">
-                <p>Preço: R$100</p>
-            </div>
-            <div class="service">
-                <h3>Plano de Mix/Master Ilimitada</h3>
-                <p>Obtenha mixagem e masterização ilimitadas com nosso plano exclusivo. Ideal para artistas que precisam de serviços constantes.</p>
-                <img src="caminho/para/imagem-plano.jpg" alt="Plano de Mix/Master Ilimitada">
-                <p>Preço: R$750</p>
-            </div>
-        </div>
-    </section>
+Bem-vindo ao Tremlipe Studios!
 
-    <section id="about">
-        <h2>Sobre Nós</h2>
-        <p>Na Tremlipe Studios, oferecemos serviços profissionais de mixagem e masterização para ajudar suas músicas a alcançarem o seu melhor potencial. Com anos de experiência e um compromisso com a qualidade, estamos aqui para transformar suas ideias em músicas perfeitas.</p>
-    </section>
+## Sobre
 
-    <section id="contact">
-        <h2>Contato</h2>
-        <p>Para mais informações ou para contratar nossos serviços, preencha o formulário abaixo:</p>
-        <form class="contact-form">
-            <input type="text" name="name" placeholder="Seu Nome" required>
-            <input type="email" name="email" placeholder="Seu E-mail" required>
-            <textarea name="message" rows="4" placeholder="Sua Mensagem" required></textarea>
-            <button type="submit">Enviar</button>
-        </form>
-    </section>
+Tremlipe Studios oferece serviços profissionais de mixagem e masterização para ajudar suas músicas a alcançarem o seu melhor potencial. 
 
-    <footer>
-        <p>&copy; 2024 Tremlipe Studios. Todos os direitos reservados.</p>
-    </footer>
-</body>
-</html>
+### Serviços:
+
+- **Mixagem**: R$ 150 por faixa.
+- **Masterização**: R$ 100 por faixa.
+- **Plano de Mix/Master Ilimitada**: R$ 750.
+
+## Contato
+
+Para mais informações ou para contratar nossos serviços, você pode nos contatar através do formulário de contato em nosso site.
+
+## Como Acessar
+
+Você pode acessar o site do Tremlipe Studios em [tremlipe.github.io](https://tremlipe.github.io).
+
+## Configuração do Projeto
+
+Este repositório contém o código-fonte para o site do Tremlipe Studios. Para configurar o projeto localmente, clone este repositório e abra o arquivo `index.html` em seu navegador.
+
+## Licença
+
+Este projeto está licenciado sob a Licença XYZ - veja o arquivo [LICENSE](LICENSE) para detalhes.
